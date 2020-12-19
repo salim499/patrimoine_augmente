@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300");
+*{
+  margin: 0;
+  padding: 0;
+}
+.bodys{
+  display: flex;
+  height: 100vh;
+  background: rgb(10, 10, 10);
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.button{
+  margin-left:2%;
+  position: relative;
+  height: 220px;
+  width: 290px;
+  border: none;
+  outline: none;
+  color: rgb(255, 94, 0);
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 38px;
+  font-family: 'Raleway', sans-serif;
+}
+.button:before{
+  content: '';
+  top: -2px;
+  left: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  border-radius: 5px;
+  z-index: -1;
+  opacity: 0;
+  filter: blur(5px);
+  background-size: 400%;
+  transition: opacity .3s ease-in-out;
+  animation: animate 20s linear infinite;
+}
+.button:hover:before{
+  opacity: 1;
+}
+.button:hover:active{
+  background: none;
+}
+.button:hover:active:before{
+  filter: blur(2px);
+}
+@keyframes animate {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
