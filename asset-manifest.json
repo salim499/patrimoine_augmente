@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/patrimoine_augmente/static/css/main.9e8c8241.chunk.css",
+    "main.js": "/patrimoine_augmente/static/js/main.e1cbcc97.chunk.js",
+    "main.js.map": "/patrimoine_augmente/static/js/main.e1cbcc97.chunk.js.map",
+    "runtime-main.js": "/patrimoine_augmente/static/js/runtime-main.6073eac7.js",
+    "runtime-main.js.map": "/patrimoine_augmente/static/js/runtime-main.6073eac7.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/patrimoine_augmente/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.63c53228.chunk.js": "/patrimoine_augmente/static/js/2.63c53228.chunk.js",
+    "static/js/2.63c53228.chunk.js.map": "/patrimoine_augmente/static/js/2.63c53228.chunk.js.map",
+    "static/js/3.1a5466b2.chunk.js": "/patrimoine_augmente/static/js/3.1a5466b2.chunk.js",
+    "static/js/3.1a5466b2.chunk.js.map": "/patrimoine_augmente/static/js/3.1a5466b2.chunk.js.map",
+    "index.html": "/patrimoine_augmente/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/patrimoine_augmente/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.9e8c8241.chunk.css.map": "/patrimoine_augmente/static/css/main.9e8c8241.chunk.css.map",
+    "static/js/2.63c53228.chunk.js.LICENSE.txt": "/patrimoine_augmente/static/js/2.63c53228.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6073eac7.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.63c53228.chunk.js",
+    "static/css/main.9e8c8241.chunk.css",
+    "static/js/main.e1cbcc97.chunk.js"
+  ]
+}
